@@ -1,8 +1,8 @@
 name: pipeline
 on: [push]
 jobs:
-  hello world:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
     - name: Say hello
-     runs: echo 'hello world'
+      runs: echo 'hello world'
